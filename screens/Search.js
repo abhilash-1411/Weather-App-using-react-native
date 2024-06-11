@@ -33,7 +33,7 @@ const listClick = async (cityname)=>{
    <View style={{flex:1}}>
         <Header name="Weather App"/>
         <TextInput
-        label="city name"
+        label="City name"
         theme={{colors:{primary:'#00aaff'}}}
         value={city}
         onChangeText={(text) =>fetchCities(text)}
